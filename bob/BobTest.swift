@@ -3,7 +3,7 @@ import XCTest
 class BobTests: XCTestCase {
     
     func testStatingSomething() {
-        let input = "Tom-ay-to, tom-aaaah-to."
+        let input = "톰-아-토, 톰-아아아-토."
         let expected = "Whatever."
         let result = Bob.hey(input)
         XCTAssertEqual(expected, result)
